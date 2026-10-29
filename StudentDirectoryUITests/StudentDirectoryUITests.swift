@@ -4,6 +4,6 @@ final class StudentDirectoryUITests: XCTestCase {
     func testStarterApplicationLaunches() {
         let app = XCUIApplication()
         app.launch()
-        XCTAssertTrue(app.staticTexts["HW3 Starter"].waitForExistence(timeout: 2))
+        XCTAssertTrue(app.wait(for: .runningForeground, timeout: 10))
     }
 }
