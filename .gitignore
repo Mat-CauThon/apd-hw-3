@@ -1,5 +1,10 @@
 .DS_Store
 DerivedData/
+.derivedData/
+.sourcePackages/
+.clang-module-cache/
+.swiftpm-module-cache/
+.swiftpm-cache/
 .build/
 .swiftpm/
 xcuserdata/
